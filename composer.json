@@ -15,5 +15,8 @@
             "name": "Ian Webster",
             "email": "ianw_php@ianww.com"
         }
-    ]
+    ],
+    "autoload": {
+      "psr-4": {"Discord\\": "discord"}
+    }
 }
