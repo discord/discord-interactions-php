@@ -1,0 +1,19 @@
+{
+    "name": "discord/interactions-php",
+    "description": "Utils for implementing the Discord Interactions API",
+    "type": "library",
+    "require": {
+        "simplito/elliptic-php": "^1.0"
+    },
+    "archive": {
+      "exclude": ["*", "!DiscordInteraction.php", "!README.md", "!composer.json"]
+    },
+    "license": "MIT",
+    "keywords": ["discord"],
+    "authors": [
+        {
+            "name": "Ian Webster",
+            "email": "ianw_php@ianww.com"
+        }
+    ]
+}
