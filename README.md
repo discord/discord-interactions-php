@@ -5,8 +5,10 @@ Types and helper functions that may come in handy when you implement a Discord I
 
 # Installation
 
+Install from [packagist](https://packagist.org/packages/discord/interactions):
+
 ```
-composer require discord/interactions-php
+composer require discord/interactions
 ```
 
 Depends on [elliptic-php](https://github.com/simplito/elliptic-php/blob/badde8f804d33ab95fac2b5dbb0037c2cdfb4eaa/lib/Utils.php), which requires the `php-gmp` extension to be enabled.
