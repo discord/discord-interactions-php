@@ -1,6 +1,9 @@
 <?php
 require_once __DIR__ . '/../DiscordInteraction.php';
 
+use Discord\Interaction;
+use Discord\InteractionResponseType;
+
 $CLIENT_PUBLIC_KEY = getenv('CLIENT_PUBLIC_KEY');
 
 $signature = $_SERVER['HTTP_X_SIGNATURE_ED25519'];
