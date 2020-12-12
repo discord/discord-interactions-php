@@ -1,5 +1,5 @@
 {
-    "name": "discord/interactions-php",
+    "name": "discord/interactions",
     "description": "Utils for implementing the Discord Interactions API",
     "type": "library",
     "require": {
