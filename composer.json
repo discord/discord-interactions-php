@@ -6,7 +6,7 @@
         "simplito/elliptic-php": "^1.0"
     },
     "archive": {
-      "exclude": ["*", "!DiscordInteraction.php", "!README.md", "!composer.json"]
+      "exclude": ["!README.md", "!composer.json", "examples", "vendor"]
     },
     "license": "MIT",
     "keywords": ["discord"],

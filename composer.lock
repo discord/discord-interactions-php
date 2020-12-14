@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a5ef5b477a2291c787323f19908f9b3",
+    "content-hash": "671bea6f714bed877cecfbb70b223d70",
     "packages": [
         {
             "name": "simplito/bigint-wrapper-php",
