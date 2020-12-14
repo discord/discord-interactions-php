@@ -2,8 +2,6 @@
 
 namespace Discord;
 
-require_once __DIR__ . '/vendor/autoload.php';
-
 use Elliptic\EdDSA;
 
 class Interaction {
