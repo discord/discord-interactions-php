@@ -2,7 +2,7 @@
     "name": "discord/interactions",
     "description": "Utils for implementing the Discord Interactions API",
     "type": "library",
-    "require": {
+    "require-dev": {
         "simplito/elliptic-php": "^1.0"
     },
     "archive": {
@@ -18,5 +18,11 @@
     ],
     "autoload": {
       "psr-4": {"Discord\\": "discord"}
+    },
+    "suggest": {
+        "simplito/elliptic-php": "Required to validate interaction signatures."
+    },
+    "conflict": {
+        "simplito/elliptic-php": "<1.0,>=1.1"
     }
 }
