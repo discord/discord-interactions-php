@@ -11,7 +11,11 @@ Install from [packagist](https://packagist.org/packages/discord/interactions):
 composer require discord/interactions
 ```
 
-Depends on [elliptic-php](https://github.com/simplito/elliptic-php/blob/badde8f804d33ab95fac2b5dbb0037c2cdfb4eaa/lib/Utils.php), which requires the `php-gmp` extension to be enabled.
+Validating request signatures requires the [`simplito/elliptic-php`](https://github.com/simplito/elliptic-php) package to be installed, which requires the `php-gmp` extension to be enabled:
+
+```
+composer require simplito/elliptic-php
+```
 
 # Usage
 
@@ -19,7 +23,7 @@ Use `InteractionType` and `InteractionResponseType` to interpret and respond to 
 
 Use `InteractionResponseFlags` to make your response special.
 
-Use `verifyKey` to check a request signature.  For example:
+Use `verifyKey` to check a request signature. Note you must install the `simplito/elliptic-php` package first. For example:
 
 ```php
 $CLIENT_PUBLIC_KEY = getenv('CLIENT_PUBLIC_KEY');
