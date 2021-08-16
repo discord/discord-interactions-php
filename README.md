@@ -26,6 +26,9 @@ Use `InteractionResponseFlags` to make your response special.
 Use `verifyKey` to check a request signature. Note you must install the `simplito/elliptic-php` package first. For example:
 
 ```php
+use Discord\Interaction;
+use Discord\InteractionResponseType;
+
 $CLIENT_PUBLIC_KEY = getenv('CLIENT_PUBLIC_KEY');
 
 $signature = $_SERVER['HTTP_X_SIGNATURE_ED25519'];
