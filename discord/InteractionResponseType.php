@@ -8,5 +8,6 @@ abstract class InteractionResponseType {
   const DEFERRED_CHANNEL_MESSAGE_WITH_SOURCE = 5;
   const DEFERRED_UPDATE_MESSAGE = 6;
   const UPDATE_MESSAGE = 7;
+  const APPLICATION_COMMAND_AUTOCOMPLETE_RESULT = 8;
 }
 
