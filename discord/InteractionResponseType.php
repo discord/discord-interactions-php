@@ -10,5 +10,6 @@ abstract class InteractionResponseType {
   const UPDATE_MESSAGE = 7;
   const APPLICATION_COMMAND_AUTOCOMPLETE_RESULT = 8;
   const MODAL = 9;
+  const PREMIUM_REQUIRED = 10;
 }
 
